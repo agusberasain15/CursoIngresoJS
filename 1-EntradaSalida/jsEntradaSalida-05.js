@@ -6,9 +6,9 @@ ej.: "Usted se llama José y tiene 66 años"
 
 function mostrar()
 {	
-	var nombre;
-	var edad;
-	var respuesta;
+	let nombre;
+	let edad;
+	let respuesta;
 
 	nombre=document.getElementById("txtIdNombre").value;
 	edad=document.getElementById("txtIdEdad").value;

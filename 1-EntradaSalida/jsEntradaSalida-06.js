@@ -7,10 +7,10 @@ mostrar el resulto por medio de "ALERT"
 
 function sumar()
 {
-	var numeroUno;
-	var numeroDos;
-	var resultado;
-	var mensaje;
+	let numeroUno;
+	let numeroDos;
+	let resultado;
+	let mensaje;
 
 numeroUno=document.getElementById("txtIdNumeroUno").value;
 numeroDos=document.getElementById("txtIdNumeroDos").value;
