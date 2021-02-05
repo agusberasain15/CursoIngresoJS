@@ -12,15 +12,15 @@ function sumar()
 	let resultado;
 	let mensaje;
 
-numeroUno=document.getElementById("txtIdNumeroUno").value;
-numeroDos=document.getElementById("txtIdNumeroDos").value;
+numeroUno = document.getElementById("txtIdNumeroUno").value;
+numeroDos = document.getElementById("txtIdNumeroDos").value;
 
-numeroUno=parseInt(numeroUno);
-numeroDos=parseInt(numeroDos);
+numeroUno = parseInt(numeroUno);
+numeroDos = parseInt(numeroDos);
 
-resultado=numeroUno+numeroDos;
+resultado = numeroUno + numeroDos;
 
-mensaje= "El resultado es "+resultado;
+mensaje = "El resultado es "+resultado;
 
 alert(mensaje);
 
