@@ -1,6 +1,26 @@
+/*
+Agustin Berasain Ruffo
+*/
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edad;
 
-}//FIN DE LA FUNCIÓN
+	edad = document.getElementById("txtIdEdad").value;
+	edad = parseInt(edad);
+
+/*   	if(!(edad<18 && edad>12))
+	{
+		alert("Usted no es un adolescente.");
+	}
+*/
+	
+	if(edad>17||edad<13)
+	{
+		alert("Usted no es adolescente");
+	}
+}
+
+/*
+Agustin Berasain Ruffo
+*/
